@@ -1,0 +1,350 @@
+*{
+ 	box-sizing: border-box;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+.header-section {
+	width: 1350px;
+	margin: 0 auto;
+	height: 85px;
+}
+
+.firstli {
+	margin-right: 440px;
+	line-height: 35px;
+}
+
+.firstli, .lastli {
+	border: 2px solid #3d35d2;
+	line-height: 35px !important;
+}
+
+.header-section ul li {
+	list-style-type: none;
+	display: inline-block;
+	line-height: 85px;
+}
+
+.header-section ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 0px 15px;
+	font-size: 17px;
+	text-align: center;
+}
+
+.firstli a,  .lastli a{
+	color: #3d35d2 !important;
+}
+
+.lastli {
+	float: right;
+	line-height: 35px;
+	margin-top: 22px;
+}
+
+.firstli a:hover, .lastli a:hover {
+	background-color: #3d35d2;
+	color: #fff !important;
+	line-height: 35px;
+	display: block;
+}
+
+.banner-section {
+	height: 745px;
+	background-color: #3d35d2;
+	padding-top: 100px;
+}
+
+.wrapper {
+	width: 1120px;
+	margin: 0px auto;
+}
+
+.banner-section h2 {
+	font-size: 40px;
+	margin-bottom: 30px !important;
+}
+
+.banner-section h2, .banner-section p {
+	color: #fff;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.gbox, .design, .hireus-grid, .grid, .workgrid, .quatation {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box {
+	margin-top: 45px;
+	height: 350px;
+	width: 255px;
+	background-color: #fff;
+	border-radius: 3px;
+	text-align: center !important;
+	box-shadow: 0px 0px 2px 2px #3d35d2;
+}
+
+.imagebox {
+	margin: 60px 0px 35px 55px;
+	height: 140px;
+	width: 140px;
+	border: 5px solid #8b90a1;
+	border-radius: 70px;
+}
+
+.imagebox img {
+	height: 65px;
+	width: 65px;
+	line-height: 140px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.box p {
+	margin-top: 15px;
+	color: #8b90a1;
+}
+
+.box:hover {
+	transform: scale(1.1,1.1);
+	box-shadow: 0px 0px 2px 4px lightgray;
+	transition: transform 1s;
+}
+
+.features {
+	background-color: #fafafa;
+	height: 580px;
+	padding: 100px 0px;
+}
+
+.features h2, .hire-us h2 {
+	text-align: center;
+	font-size: 34px;
+	padding-bottom: 60px;
+}
+
+.gbox, .design, .hireus-grid, .grid, .workgrid, .quatation {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box2 {
+	width: 350px;
+	height: 295px;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0px 0px 2px 2px lightgray;
+	padding: 50px 25px 0px 25px;
+}
+
+.box2 img {
+	margin-bottom: 30px;
+}
+
+.box2 h3 {
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.box2 p {
+	line-height: 20px;
+	font-size: 14px;
+	color: #8b90a1;
+}
+
+.hire-us {
+	height: 340px;
+	background-color: #f1f8fe;
+	padding-top: 90px;
+}
+
+.box3 {
+	height: 80px;
+	width: 310px;
+	padding: 10px 5px;
+}
+
+.box3 img {
+	float: left;
+}
+
+.box3 p {
+	float: left;
+	font-size: 18px;
+	color: var(--textcolor1);
+	margin: 0px 0px 10px 15px;
+}
+
+.box3 h4 {
+	font-size: 26px;
+	margin: 0px 0px 0px 70px;
+	line-height: 28px;
+}
+
+.box3 span {
+	color: #3d35d2;
+}
+
+.box3:hover {
+	box-shadow: 0px 1px 1px 2px lightgray;
+}
+
+.savehards {
+	height: 1265px;
+	text-align: center;
+}
+
+.savehards h2 {
+	font-size: 34px;
+	margin: 100px 0px 20px 0px;
+}
+
+.savehards p, .faq p {
+	font-size: 16px;
+	color: #8b90a1;
+}
+
+.grid {
+	margin-top: 30px;
+}
+
+.boxblue {
+	border-top: 3px solid #15a2e5;
+	border-radius: 2px;
+}
+
+.box4 {
+	height: 800px;
+	width: 350px;
+	margin-top: 60px;
+	box-shadow: 0px 0px 5px 2px lightgray;
+}
+
+.box4 img {
+	text-align: center;
+	margin: 60px 0px 35px 0px;
+}
+
+.box4 h5 {
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+
+.box4 b {
+	font-size: 16px;
+}
+
+.box4 span {
+	font-size: 36px;
+	margin: 10px;
+	line-height: 70px;
+}
+
+.box4 i {
+	margin: 15px 0px;
+	line-height: 80px;
+	font-size: 15px;
+	font-weight: 600;
+	position: relative;
+}
+
+.boxblue i {
+	color: #15a2e5;
+}
+
+.box4 i::after {
+	content: "";
+	display: inline-block;
+	width: 125px;
+	height: 1px;
+	background-color: grey;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,30px);
+	margin: 59px 0px;
+}
+
+.box4 p {
+	margin: 60px 0px;
+	font-size: 15px;
+	position: relative;
+}
+
+.peragraph::after {
+	content: "";
+	display: inline-block;
+	width: 125px;
+	height: 1px;
+	background-color: grey;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,30px);
+	margin: 35px 0px;
+}
+
+.peragraph1 {
+	padding-top: 35px;
+}
+
+button {
+	line-height: 50px;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	background-color: #3d35d2;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 55px;
+	  cursor: pointer;
+}
+
+.savehards p, .faq p {
+	font-size: 16px;
+	color: #9397a7;
+}
+
+.peragraph2 {
+	margin-top: 65px;
+	line-height: 30px;
+}
+
+.box4:hover {
+	transform: scaleY(1.1);
+}
+
+.boxred {
+	border-top: 3px solid #f01b3e;
+	border-radius: 2px;
+}
+
+.boxgreen {
+	border-top: 3px solid #8dc540;
+	border-radius: 2px;
+}
+
+.boxred i {
+	color: #f01b3e;
+}
+
+.boxgreen i {
+	color: #8dc540;
+}
+
+.gallery-four img:hover {
+	transform: scale(1.1,1.1);
+	transition: transform 1s;
+}
+
+.letestblog-image:hover {
+	transform: scaleY(1.1);
+}
